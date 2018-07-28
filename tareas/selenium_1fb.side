@@ -1,0 +1,68 @@
+{
+  "id": "1abca5ef-2f7b-4705-94e4-6b7b03957dd9",
+  "name": "Untitled Project",
+  "url": "https://www.facebook.com",
+  "tests": [{
+    "id": "12a5927f-1050-4c93-a529-dc4575a1673c",
+    "name": "Untitled",
+    "commands": [{
+      "id": "406fa241-5994-4d5c-908e-8839ee25b337",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "23b2a59d-68b8-4991-8431-bfbcf6cef771",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=q",
+      "value": "153,16"
+    }, {
+      "id": "f48b1351-657d-4fba-83c6-8e8bdc402414",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=i._585_",
+      "value": ""
+    }, {
+      "id": "77449842-472c-4f25-8e60-d0b63445a5f1",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "value": "monica galindo"
+    }, {
+      "id": "2e704407-49fe-4eb4-9522-a64ba65c5b6d",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=i._585_",
+      "value": "5,3"
+    }, {
+      "id": "a6e27503-9ed5-477d-a111-ebf9b0b2339f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=i._585_",
+      "value": ""
+    }, {
+      "id": "ccd3d0c9-0faf-40fe-bb8e-1b0448090e57",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=i._585_",
+      "value": ""
+    }, {
+      "id": "1b10aa36-b031-4042-89dd-4eff79eb5aa0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=i._585_",
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "59b44582-750f-4d1f-b105-c4e596eb2a3b",
+    "name": "Default Suite",
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["12a5927f-1050-4c93-a529-dc4575a1673c"]
+  }],
+  "urls": ["https://www.facebook.com/"],
+  "plugins": [],
+  "version": "1.0"
+}
